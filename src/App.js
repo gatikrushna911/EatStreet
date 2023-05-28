@@ -1,9 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Header from "./component/Header";
+import Body from "./component/Body";
 const App = () => {
   return (
     <>
-      <h1 className="text-4xl font-bold underline bg-red-500">Hello world!</h1>
+      <Header />
+      <Body />
     </>
   );
 };
